@@ -1,1 +1,5 @@
-
+# Add environment variables for Hadoop and Pig
+export JAVA_HOME=/usr
+export HADOOP_PREFIX=/usr/local/hadoop
+PATH=$PATH:$HADOOP_PREFIX/bin
+export PATH=/usr/local/pig-0.14.0/bin:$PATH
